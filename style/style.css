@@ -1,0 +1,211 @@
+/* common styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Top banner styles  */
+.top-banner{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616; 
+    display: flex;
+    border-radius: 10px;
+}
+.player-image img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+.title{
+    margin-left: 110px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-right: 24px;
+}
+.title-name{
+    color: #FFFFFF;
+    
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    
+}
+.title-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.button-watch{
+    background-color: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border-style: none;
+}
+
+/*------------- bottom part styles ------------ */
+.bottom-part{
+    display: flex;
+    justify-content: center ;
+}
+.options .blogs-option:hover{
+    background-color: red;
+}
+.options .all-groups:hover{
+    background-color: red;
+}
+.options{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.upcoming-matches{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+}
+.all-groups, .blogs-option{
+    /* padding-top: 1px; */
+    background-color: white;
+    border-radius: 5px;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+}
+
+
+.bottom-part{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* width: 92%; */
+}
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px ;
+}
+.flags{
+    display: flex;
+}
+.flag img{
+    width: 93px;
+    height: 56px;
+}
+.team-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+.vs{
+    margin-left: 21px;
+    margin-right: 21px;
+}
+.schedule{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+
+.goal h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer{
+    padding-top: 130px;
+    margin-top: 130px;
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-menu{
+    margin-left: 351px;
+    margin-right: 351px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    margin-left:20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-feature-settings: 'liga' off; */
+    color: #B9B9B9;
+    text-align: center;
+}
+
+/* blog style  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* .bottom-part{
+    display: flex;
+    justify-content: center;
+    
+} */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+article{
+    box-shadow: 10px red  ;
+}
+.ronaldo{
+    width: 312px;
+    height: 175px;
+}
+.comments{
+    display: flex;
+    
+}
+.transfer{
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+.duration{
+    margin-right: 10px;
+}
